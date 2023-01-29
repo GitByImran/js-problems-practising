@@ -201,3 +201,96 @@ else {
     console.log("awwh! it's price much than 200 taka");
 }
 
+
+
+
+
+
+// extra practise
+
+
+// number sorting program
+
+var array = [12, 58, 6425, 68, 5, 8, 46, 86, 89, 245, 8785, 447, 85, 54787, 4];
+
+for (let i = 0; i < array.length; i++) {
+    array.sort(
+        function (a , b) {
+            return a - b
+        }
+    )
+    console.log(array[i]);
+}
+
+// number reversing program
+
+var array = [12, 58, 6425, 68, 5, 8, 46, 86, 89, 245, 8785, 447, 85, 54787, 4];
+
+for (let i = 0; i < array.length; i++) {
+    array.sort(
+        function (a , b) {
+            return b - a
+        }
+    )
+    console.log(array[i]);
+}
+
+// mulltiplication of 13
+
+console.log("** mulltiplication of 13 :)");
+var multiNum = 13;
+for (let i = 1; i <= 10; i++) {
+    var result = (multiNum * i)
+    console.log(multiNum + " x " + i + " = " + result);
+}
+
+// text case
+
+function caseConvert(name) {
+    return name.toLowerCase();
+}
+
+console.log(caseConvert("Jhon Doe"));
+
+// 
+
+function caseConvert(name) {
+    console.log(name.toLowerCase());
+}
+
+caseConvert("Jhon Doe");
+
+// input into function
+
+function fullname(firstName, lastName) {
+    return firstName + " " + lastName;
+}
+
+console.log(fullname("jhon", "doe"));
+
+// 
+
+function fullname(firstName, lastName) {
+    console.log(firstName + " " + lastName);
+}
+
+fullname("jhon", "doe");
+
+// square result
+
+function square (value) {
+    return value * value;
+}
+console.log(square(5))
+
+//
+
+const pizza = {
+    toppings: ["cheese", "sauce", "pepperoni"],
+    crust: "deep dish",
+    serves : 2
+}
+console.log(pizza.toppings[2])
+
+
+
