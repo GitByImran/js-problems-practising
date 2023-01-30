@@ -283,7 +283,7 @@ function square (value) {
 }
 console.log(square(5))
 
-//
+// grave a list value form object
 
 const pizza = {
     toppings: ["cheese", "sauce", "pepperoni"],
@@ -291,6 +291,43 @@ const pizza = {
     serves : 2
 }
 console.log(pizza.toppings[2])
+
+
+// define the leap year
+function leapyear(probLeapYear) {
+    if (probLeapYear % 4 == 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+console.log(leapyear(2023));
+
+// 
+
+function age(value) {
+    if (value % 2 == 0) {
+        // if even
+        return true;
+    }
+    else {
+        // if odd
+        return false;
+    }
+}
+
+console.log(age(21));
+
+// convert hour to minute
+
+function timeConverter(hour) {
+    return hour * 60 + " minute";
+}
+
+console.log(timeConverter(5));
+
 
 
 
